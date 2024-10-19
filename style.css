@@ -1,1 +1,30 @@
 
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: SlateBlue;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0
+}
+
+ul li {
+  background-color: Orange;
+  padding: 12px 8px 12px 40px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+ul li:hover {
+  background-color: Tomato;
+}
+
+
+
