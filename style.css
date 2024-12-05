@@ -1,12 +1,27 @@
 
+/* Color pallet */
+:root {
+  --clr-page-header: #a0baed; /* SlateBlue; */
+  --clr-background: #bcbcbc; /* Light gray */
+  --clr-button: #007bff; /* bluish */
+  --clr-text: #f4f4f4; /* whitish */
+  --clr-menu-item: #464244; /* dark gray */
+  --clr-menu-item-hover: #9c9097; /* gray */
+}
+
 * {
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--clr-background);
+  color: var(--clr-text);
+}
+
 header {
-  background-color: SlateBlue;
-  padding: 30px 40px;
-  color: white;
+  background-color: var(--clr-page-header);
+  padding: 10px 20px;
+  color: Black;
   text-align: center;
 }
 
@@ -16,14 +31,14 @@ ul {
 }
 
 ul li {
-  background-color: Orange;
+  background-color: var(--clr-menu-item);
   padding: 12px 8px 12px 40px;
-  font-size: 18px;
+  font-size: 24px;
   transition: 0.5s;
 }
 
 ul li:hover {
-  background-color: Tomato;
+  background-color: var(--clr-menu-item-hover);
 }
 
 
