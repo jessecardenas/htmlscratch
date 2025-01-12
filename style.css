@@ -6,6 +6,7 @@
   --clr-button: #007bff; /* bluish */
   --clr-text: #f4f4f4; /* whitish */
   --clr-menu-item: #464244; /* dark gray */
+  --clr-menu-item-odd: #565254; /* dark grayish */
   --clr-menu-item-hover: #9c9097; /* gray */
 }
 
@@ -35,6 +36,10 @@ ul li {
   padding: 12px 8px 12px 40px;
   font-size: 24px;
   transition: 0.5s;
+}
+
+ul li:nth-child(odd) {
+  background-color: var(--clr-menu-item-odd);
 }
 
 ul li:hover {
